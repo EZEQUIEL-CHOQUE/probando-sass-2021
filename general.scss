@@ -1,0 +1,20 @@
+// general.scss
+
+// es probable que prepros se nos adelante y lo compile de forma independiente igual 
+// si pasa eso vamos a tener q borarr el archivo compilado pero se arregla facil
+
+// ojo tengo que importarlo en este orden
+
+// _variables.scss
+@import 'variables'; 
+
+// _header.scss
+@import 'header';
+
+// _footer.scss
+@import 'footer'; 
+
+body{
+    /*esta variable viene de otro archivo*/
+    background-color: var(--naranja);
+}
